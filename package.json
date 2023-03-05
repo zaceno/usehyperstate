@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/zaceno/usehyperstate#readme",
   "devDependencies": {
-    "react": "^17.0.0"
+    "react": "^18.0.0"
   },
   "peerDependencies": {
-    "react": "^17.0.0"
+    "react": "^18.0.0"
   }
 }

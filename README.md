@@ -35,10 +35,10 @@ It is particularly useful if your state is complicated enough that you're alread
 using `useReducer` or redux, but you find it cumbersome to manage state-transitions with
 assocated side effects.
 
-And if you already know and love Hyperapp, this lets you bring some of the goodness in to
-your react projects. In fact, all your actions, effects and subscriptions are 100% compatible
-with this hook, so you can reuse them in your React projects (except for potential differences
-due to React's synthetic events)
+And if you already know and love Hyperapp, this hook will allow you to reuse all your
+actions, effects and subscriptions for hyperapp in react. They should be 100% compatible
+since I actually copied the relevant parts of hyperapp's code verbatim over (There may
+be some edge-case issues with React's synthetic events I don't know about)
 
 ## Basic usage
 

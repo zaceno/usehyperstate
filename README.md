@@ -27,6 +27,16 @@ ReactDOM.createRoot(
   document.querySelector('#root')
 ).render(<App />)
 ```
+#### A more in depth example
+
+You're welcome to study this [code sandbox](https://codesandbox.io/s/demo-usehyperstate-5scxov?file=/src/SubApp.js) where the same app has
+been implemented in four different ways, to illustrate the benefits over useReducer.
+
+1. `PlainApp.js` - the app implemented with `useState` and `useEffect`
+2. `ReducerApp.js` - the app implemented with `useReducer` (but still needs `useEffect` also)
+3. `HyperApp.js` - illustrates replacing `useReducer` with `useHyperState`
+4. `SubApp.js` - like 3, but leverages the subscriptions feature for an even more elegant implementation.
+
 
 ## Introduction
 
